@@ -72,7 +72,7 @@ export const ReminderPopup: React.FC<ReminderPopupProps> = ({
               className="flex-1 bg-yellow-600 text-white py-3 px-4 rounded-lg hover:bg-yellow-700 transition-colors flex items-center justify-center space-x-2"
             >
               <Clock className="h-4 w-4" />
-              <span>Snooze 5min</span>
+              <span>Snooze 30 sec</span>
             </button>
             <button
               onClick={onSkip}
